@@ -189,3 +189,273 @@ section{
     font-weight: 500;
     font-size: 17px;
 }
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product {
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 310px;
+    height: 422px;
+    margin: 20px;
+}
+
+.product h5, h3, h4, span, button {
+    margin-left: 20px;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+.product h5 {
+    margin-bottom: 10px;
+    color: #86928B;
+    font-size: 18px;;
+}
+
+.product h3 {
+    color: #2C2D35; 
+    font-size: 30px;
+}
+
+.product h4 {
+    color: #2C2D35;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+span {
+    margin-top: 30px;
+    color: #598D66;
+    font-size: 24px;
+}
+
+.add-to-cart {
+    width: 310px;
+    height: 65px;
+    margin-top: 20px;
+    border: 1px solid #598D66;
+    background-color: #E1EDE6;
+    color: #598D66;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 20px;
+    animation: all;
+}
+
+.add-to-cart:hover{
+    background-color: #598D66;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.section_3 {
+    background-image: url(./img/pic_background.png);
+    width: 100%;
+    height: 574px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    color: white;
+    margin-top: 70px;
+}
+
+.main_content_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content_3 h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    width: 521px;
+    font-family: "Raleway";
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 165px;
+}
+
+.main_content_3 h4 {
+    margin-top: 20px;
+    margin-left: 165px;
+    width: 540px;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+.get-to-know {
+    width: 257px;
+    height: 65px;
+    background-color: #EEDB6D;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+    color: #2C2D35;
+    margin-top: 60px;
+    margin-left: 165px;
+    cursor: pointer;
+    border: none;
+}
+
+.get-to-know:hover {
+    color: #bbae63;
+}
+
+.section_4 {
+    width: 100% auto;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.section_4_bg {
+    width: 361px;
+    height: 445px;
+    margin-top: 70px;
+    margin-left: 165px;
+}
+
+.main_content_4 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway";
+    font-weight: 500;
+    color: #2C2D35;
+    width: 100% auto;
+    height: auto;
+}
+
+.main_content_4 h3 {
+    margin-left: 30px;
+    margin-top: 124px;
+    font-size: 40px;
+    
+}
+
+.main_content_4 h4 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.team-pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.team-pics img {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+footer {
+    font-family: "Raleway";
+    font-weight: 500;
+    width: 100% auto;
+    height: 168px;
+    background-color: #E1EDE6;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 23px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #86928B;
+    animation: all;
+}
+
+.footer-container ul li a:hover{
+    color: #598D66;
+    transition: 0.5s;
+}
+
+.footer-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-container ul li {
+    font-size: 20px;
+}
+
+.column_one img {
+    width: 143px;
+    height: 35px;
+}
+
+.column_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.column_one h4{
+    color: #86928B;
+}
+
+.phone-number {
+    color: #2C2D35;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+footer ul h3 {
+    font-size: 20px;
+    color: #2C2D35;
+}
+
+.column_five {
+    display: flex;
+    flex-direction: column;
+    color: #86928B;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 5px;
+
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+}
+
